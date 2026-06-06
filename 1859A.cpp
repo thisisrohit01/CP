@@ -9,13 +9,13 @@ int main(){
             vector<int> v(n);
             for(int i=0;i<n;i++) cin>>v[i];
             sort(v.begin(),v.end());
-            int avg=accumulate(v.begin(),v.end(),0);
-            if((avg/v.size())==v[1]){
+            int avg=(accumulate(v.begin(),v.end(),0))/v.size();
+            if(avg==*v.begin() && avg==*(v.end()-1)){
                 cout<<-1<<'\n';
             }
             else{
                 vector<int> b,c;
-                for(int i=0;i<n;i++){
+                for(int i=1;i<=n;i++){
                     if(i<=n/2) b.push_back(v[i]);
                     else c.push_back(v[i]);
                 }
