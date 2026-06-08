@@ -1,0 +1,1 @@
+{"name":"Local: BinaryExponiantation","url":"/home/rohit/CP/BinaryExponiantation.cpp","tests":[{"id":1780937882515,"input":"2 10","output":"1024\n1024"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/rohit/CP/BinaryExponiantation.cpp","group":"local","local":true}
