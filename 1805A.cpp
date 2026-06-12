@@ -13,6 +13,13 @@ int main(){
         for(int i=0;i<n;++i){
             a=a^v[i];
         }
-        cout<<a<<'\n';
+        if(n&1){
+            cout<<a<<'\n';
+        }
+        else{
+            if(a==0) cout<<a<<'\n';
+            else cout<<-1<<'\n';
+        }
     }
 }
+//accepted
